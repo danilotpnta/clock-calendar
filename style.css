@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #app-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: #F3F3F3;
+}
+
+.content-container {
+  width: 100%;
+}
+
+#app-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#clock {
+  font-size: 10vw;
+  margin: 1rem;
+}
+
+#calendar {
+  font-size: 7.5vw;
+  margin: 0.5rem;
+}
+
+@media (max-width: 50rem) {
+  #clock {
+    font-size: 15vw;
+  }
+  #calendar {
+    font-size: 10vw;
+  }
+}
+
+.link {
+  color: white;
+}
